@@ -1,0 +1,45 @@
+.clearBoth {
+  clear: both;
+}
+table.kv {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+table.kv th, table.kv td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.kv th {
+  width: 30%;
+  color: #333;
+  background: #fafafa;
+  font-weight: 600;
+}
+
+table.kv tbody tr:nth-child(even) td,
+table.kv tbody tr:nth-child(even) th {
+  background: #fcfcff;
+}
+table.results { border-collapse: collapse; width: 100%; }
+table.results th, table.results td { border: 1px solid #ddd; padding: 8px; vertical-align: top; }
+.hit { display: inline-block; padding: 2px 8px; margin: 2px; border-radius: 12px; background: #eef; }
+.error { color: #b00020; }
+
+.home-button {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-button:hover {
+  background: #0056b3;
+}
